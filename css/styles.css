@@ -257,8 +257,8 @@ span{
   color: #fff;
 }
 
-.form textarea {
-  height: 150px;
+.textarea {
+  height: 400px;
   background: none;
   color: #fff;
   padding: 1.5em;
