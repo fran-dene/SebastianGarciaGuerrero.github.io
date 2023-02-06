@@ -25,6 +25,9 @@ body {
   padding: 2em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .brand {
   margin-top: -7px;
 }
@@ -92,8 +95,8 @@ span{
 }
 
 .main img{
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border: 7px solid #2ade0a;
 }
 
@@ -102,13 +105,13 @@ span{
   grid-template-columns: repeat(10, 1fr);
   width: 100vw;
   align-items: center;
+  padding: 6em;
 }
 
 .about img {
   width: 500px;
   height: 500px;
   grid-column: 1/5;
-  border: 7px solid #2ade0a;
 }
 
 .about-info {
@@ -121,11 +124,19 @@ span{
   color: #bebec1;
 }
 
-.divider{
+.divider {
   height: 4px;
   width: 60px;
   background-color: #2ade0a;
   margin-top: 3px;
+  margin-bottom: 1.5em;
+}
+
+.dividerdos {
+  height: 4px;
+  width: 150px;
+  background-color: #2ade0a;
+  margin-top: 6px;
   margin-bottom: 1.5em;
 }
 
@@ -224,6 +235,7 @@ span{
   text-decoration: none;
   color: #2f3032;
   text-transform: uppercase;
+  align-items: center;
 }
 
 .card .proyect-details-content {
@@ -236,6 +248,7 @@ span{
 
 .contact-section {
   background-color: #2f3032;
+  padding: 2em;
 }
 
 .contact-form {
@@ -311,7 +324,6 @@ span{
   width: 100vw;
   height: 200px;
   background-color: #2ade0a;
-  padding-top: 1em;
 }
 
 .footer-content h2 {
