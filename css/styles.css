@@ -165,10 +165,32 @@ span{
   margin: 1em;
 }
 
-.card__img {
+
+.card__imguno {
   width: 100%;
   height: 150px;
-  background-image: url(../img/2-original.png);
+  background-image: url(../img/previewzilas.jpeg);
+  background-size: cover;
+}
+
+.card__imgdos {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/previewcvsabrina.jpeg);
+  background-size: cover;
+}
+
+.card__imgtres {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/previewcuppon.jpeg);
+  background-size: cover;
+}
+
+.card__imgcuatro {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/previewiguana.jpeg);
   background-size: cover;
 }
 
@@ -289,6 +311,7 @@ span{
   width: 100vw;
   height: 200px;
   background-color: #2ade0a;
+  padding-top: 1em;
 }
 
 .footer-content h2 {
