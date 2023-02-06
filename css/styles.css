@@ -9,6 +9,7 @@
 body {
   font-family: 'Source Code Pro', monospace;
   overflow-x: hidden;
+  background-color: #2f3032;
 }
 
 .wrapper {
@@ -82,7 +83,7 @@ span{
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
-  box-shadow: 1px 3px 11px -5px rgba(29, 115, 51);
+  box-shadow: 1px 3px 11px -5px rgba(29, 115, 51, 0.69);
 }
 
 .download-cv:hover {
@@ -91,8 +92,8 @@ span{
 }
 
 .main img{
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border: 7px solid #2ade0a;
 }
 
@@ -117,7 +118,7 @@ span{
 
 .about-info h2 {
   font-size: 2em;
-  color: #2f3032;
+  color: #bebec1;
 }
 
 .divider{
@@ -130,6 +131,7 @@ span{
 
 .about p {
   margin-bottom: 1em;
+  color: #bebec1;
 }
 
 .portfolio {
@@ -139,11 +141,12 @@ span{
 
 .portfolio-headings {
   width: 100vw;
-  padding: 5em;
+  padding: 2em;
 }
 
 .portfolio-headings h2{
   font-size: 2.5em;
+  color: #bebec1;
 }
 
 .portfolio .container {
@@ -207,4 +210,103 @@ span{
   justify-content: center;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.contact-section {
+  background-color: #2f3032;
+}
+
+.contact-form {
+  color: #fff;
+  padding: 3em;
+  width: 50vw;
+}
+
+.contact-headings {
+  font-size: 1.5em;
+  color: #bebec1;
+  padding-left: 1em;
+}
+
+.container-contact {
+  padding: 3em;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container-contact img {
+  width: 550px;
+  height: 500px;
+  bottom: 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-top: 2em;
+  padding: 3em;
+}
+
+.form input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom:  1px solid #fff;
+  color: #fff;
+}
+
+.form textarea {
+  height: 150px;
+  background: none;
+  color: #fff;
+  padding: 1.5em;
+  border:  1px solid #fff;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: #2ade0a;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(29, 115, 51, 0.69);
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  background-color: #2ade0a;
+}
+
+.footer-content h2 {
+  font-size: 3em;
+}
+
+.footer-content h5 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+}
+
+.social-network i {
+  font-size: 1.5em;
 }
