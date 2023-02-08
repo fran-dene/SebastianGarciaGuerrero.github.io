@@ -345,3 +345,7 @@ span{
 .social-network i {
   font-size: 1.5em;
 }
+
+.bg-black{
+  background-color: #000;
+}
